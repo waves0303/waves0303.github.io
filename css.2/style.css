@@ -1,0 +1,230 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{ 
+background-color: rgb(0, 0, 0);
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+/*inicio cabecera*/
+.cabecera{ 
+    color: rgb(20, 255, 0);
+    width: 70%;
+    height: 50px;
+    padding: 0 40px;
+    text-decoration: none;
+    color: rgb(20, 255, 0);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cabecera_link{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cabecera_img{ 
+    object-fit: cover;
+    height: 90%;
+    margin-right: 10px;
+}
+/*fin cabecera*/
+
+/*inicio navegacion*/
+.navegacion{ 
+    background-color: rgb(0, 9, 17);
+    width: 70%;
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navegacion a{ 
+    text-decoration: none;
+    color: rgb(0, 255, 21);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 40px 50px;
+}
+.navegacion a:hover{ 
+
+color: rgb(0, 238, 255);
+background-color: rgba(255, 255, 255, 0)
+;
+}
+/*fin navegacion*/
+section{
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+ }
+ 
+ .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    border-radius: 5rem;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    transition: all .3s linear;
+ }
+ 
+ .btn:hover{
+    transform: scale(1.1);
+ }
+ 
+ 
+ .heading{
+    text-align: center;
+    background-color: rgb(0, 255, 21);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+ }
+ 
+ 
+ .inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/verde.jpg);
+    background-size: cover;
+    background-position: center;
+   
+ }
+ 
+ 
+ 
+ .inicio .content h3{
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+ }
+ 
+ .inicio .content h3 span{
+    color: #2c3e50;
+    text-transform: uppercase;
+ 
+ }
+ 
+ .inicio .content p{
+    font-size: 1.3rem;
+    color: #292E49;
+    padding: 1rem 0;
+ }
+
+
+ .nosotros .caja-contenedor{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+
+.nosotros .caja-contenedor .caja{
+   flex: 1 1 30rem;
+   background: rgb(0, 0, 0);
+   border-radius: .5rem;
+   border: 1rem solid rgba(0, 255, 21 );
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+   margin: 1.5rem;
+   padding: 3rem 2rem;
+   border-radius: .5rem;
+   text-align: center;
+   transition: .2s linear;
+}
+
+.nosotros .caja-contenedor .caja img{
+   height: 15rem;
+}
+
+
+
+
+.nosotros .caja-contenedor .caja p{
+   font-size: 1.3rem;
+   color: #ffffff;
+   padding: 1rem 0;
+   font-family: cursive;
+   align-items: center;
+}
+
+
+
+.servicios .columna{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap; 
+}
+
+.servicios .columna .image{  
+   flex: 1 1 30rem;
+}
+
+
+.servicios .columna .image img{  
+   width: 80%;
+}
+
+.servicios .columna .content{  
+   flex: 1 1 30rem;
+
+}
+
+.servicios .columna .content h3{  
+   font-size: 2rem;
+   color:#00bf8f;
+
+}
+
+.servicios .columna .content p{  
+   font-size: 1.2rem;
+   color: #e9ebee;
+   padding: 1rem 0;
+}
+
+.servicios .columna .content .bottons a:last-child{ 
+   margin-left: 2rem;
+
+}
+
+.servicios{
+   background-position: right;
+
+}  
+ 
+
+.servicios .columna .content .bottons a{
+   width: 80%;
+   text-align: center; 
+}
+
+.servicios .columna .content .bottons a:last-child{
+   margin: 1rem 0;
+}
+
